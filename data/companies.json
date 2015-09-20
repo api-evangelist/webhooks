@@ -88,35 +88,5 @@
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/zapier-logo.png",
 		"tags": null
-	},
-	{
-		"id": "ba9QeRN62ozbW9wnmfSr5HL116yS9Q4yp7W5ty7nzgh123rJbiCrDp7hQYlByqsUN0FP12358dBJUplmTyHGXGW4vOpw117117",
-		"name": "Inflectus",
-		"summary": "The Fastest Way to Add Webhooks Add webhooks to your application in hours instead of weeks or months. No machine to manage. No additional server monitoring costs. Developers can focus on core features instead of maintaining extra an codebase and worrying about additional servers. et how many times you want to retry and at what interval.",
-		"details": "The Fastest Way to Add Webhooks Add webhooks to your application in hours instead of weeks or months. No machine to manage. No additional server monitoring costs. Developers can focus on core features instead of maintaining extra an codebase and worrying about additional servers. et how many times you want to retry and at what interval.",
-		"website": "http://inflectus.com/",
-		"twitter": "",
-		"github": "",
-		"blog": "",
-		"blogrss": "",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
-		"tags": null
-	},
-	{
-		"id": "xofPEKGqoB35iTY8VJTCyNE4sJXnCoVRmpaEZ116oNoIdshBe2xrEr2By5hT0SYkMoBbxahGVijxg0Ry9JxfMMtw117117",
-		"name": "webscript.io",
-		"summary": "Webscripts respond to HTTP requests, making them easy to call from web and mobile apps. Webscripts have all the features you need, like password hashing and persistent storage, plus the full programmability of Lua. Many developer tools, such as GitHub and Stripe, offer webhooks as a way of delivering notifications. Webscripts are a fast and easy way to receive those webhooks. Our built-in request ",
-		"details": "Webscripts respond to HTTP requests, making them easy to call from web and mobile apps. Webscripts have all the features you need, like password hashing and persistent storage, plus the full programmability of Lua. Many developer tools, such as GitHub and Stripe, offer webhooks as a way of delivering notifications. Webscripts are a fast and easy way to receive those webhooks. Our built-in request logging makes them equally easy to debug on-the-fly. Webscripts can also be activated on a schedule, providing a simple way to build monitoring or other automation.",
-		"website": "https://www.webscript.io/",
-		"twitter": "https://twitter.com/webscriptio",
-		"github": "https://github.com/WebScript",
-		"blog": "http://blog.webscript.io/",
-		"blogrss": "http://blog.webscript.io/rss.xml",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/webscript-logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/webscript-logo.png",
-		"tags": null
 	}
 ]
