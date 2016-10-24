@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "ZQi8L1ckor6OQmlLJf4QRDvRvxZpBeSkGVgvHma9f3qBY1234FG7SWjst6116zVHEPiubR494q863bs6123m8Q6GBdVQ117117",
+		"item_date": "2016-10-21 00:00:00",
+		"title": "Using Azure Logic Apps with HTTP Requests",
+		"url": "http://www.codeproject.com/Articles/1136839/Using-Azure-Logic-Apps-with-HTTP-Requests",
+		"domain": "www.codeproject.com",
+		"image": ""
+	},
+	{
 		"curated_id": "cVJX2Jc0LgqT2mRn116yrRKbwYcVwxgPxVauraC66MYw8zORJtyAO1169AwGJs08GqRbWFfjbW852e50hdMOj2SIKw117117",
 		"item_date": "2016-09-21 09:56:23",
 		"title": "New in Basecamp 3 Webhooks",
