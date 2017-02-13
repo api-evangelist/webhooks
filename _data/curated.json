@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "lUK5D1235tqaq3tDEuo6IpZdS63MJ1fD50762Rg7QUz2nrTY116aEguciYLOFlGVUV0DhqAg7wMsz9h5PEx5D5ibDQ117117",
+		"item_date": "2017-02-08 00:00:00",
+		"title": "Why We No Longer Recommend Static Webhooks",
+		"url": "https://zapier.com/engineering/static-webhooks/",
+		"domain": "zapier.com",
+		"image": ""
+	},
+	{
 		"curated_id": "UZXjHoX7rmufa3c7sYpkNqpXKqVmr0RDj9ZmY5nvPhPZGcFqk2IvWooM6gkU1ZkaBt8pYxHf116ap7116wR49QooBQ117117",
 		"item_date": "2016-12-15 00:00:00",
 		"title": "Announcing Microsoft ASPNET WebHooks V1",
