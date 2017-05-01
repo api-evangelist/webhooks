@@ -64,14 +64,6 @@
 		"image": ""
 	},
 	{
-		"curated_id": "123e4RYMceFa3KCwUbHVwexPEXLhOeMkdZR4r1164WJhsHRp0jEDFCznd1PzlBjywsG123v8c9lOQRrZNgEbe4ievgQA117117",
-		"item_date": "2016-10-26 13:13:04",
-		"title": "Twitter",
-		"url": "https://twitter.com/thenewstack/status/791372092830806017/photo/1",
-		"domain": "twitter.com",
-		"image": ""
-	},
-	{
 		"curated_id": "ZQi8L1ckor6OQmlLJf4QRDvRvxZpBeSkGVgvHma9f3qBY1234FG7SWjst6116zVHEPiubR494q863bs6123m8Q6GBdVQ117117",
 		"item_date": "2016-10-21 00:00:00",
 		"title": "Using Azure Logic Apps with HTTP Requests",
