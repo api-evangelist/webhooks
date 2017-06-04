@@ -1,0 +1,78 @@
+- slug: analyticswebhookserver
+  name: analytics-webhook-server
+  description: An example webhook server for the Chef analytics pipeline
+  url: 'https://github.com/chef/analytics-webhook-server'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Webhooks,Orchestration'
+- slug: respondto.it
+  name: respondto.it
+  description: >-
+    Debug web hooks like a pro. Create an endpoint to collect and respond to web
+    hooks. View the last several requests, and configure canned responses in
+    both JSON and XML.
+  url: 'http://respondto.it/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/blog/respondto-it-logo.png
+  tags: 'Webhooks,Webhook Tool'
+- slug: requestbin
+  name: requestbin
+  description: Inspect HTTP requests. Debug webhooks. Originally created by @progrium.
+  url: 'https://github.com/Runscope/requestbin'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Testing,Webhooks,General'
+- slug: inspectb.in
+  name: InspectB.in
+  description: >-
+    InspectBin is based on the idea of RequestBin (requestb.in), set your http
+    client or webhook to point to your InspectBin url. We will collect http
+    requests and show it in a nice and friendly way, live!
+  url: 'http://inspectb.in/ '
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/inspectb-in-logo.png
+  tags: 'Cllient,Debugging,Webhooks,Webhook Tool'
+- slug: requestbin
+  name: RequestBin
+  description: >-
+    RequestBin lets you create a URL that will collect requests made to it, then
+    let you inspect them in a human-friendly way. Use RequestBin to see what
+    your HTTP client is sending or to look at webhook requests.
+  url: 'http://requestb.in/'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: >-
+    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/tools/requestbin-logo.png
+  tags: 'Webhooks,Clients,Webhook Tool'
+- slug: hookbot
+  name: hookbot
+  description: Turn webhooks into websockets
+  url: 'https://github.com/scraperwiki/hookbot'
+  short_url: ''
+  twitter: ''
+  blog: ''
+  blog_rss: ''
+  github: ''
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  tags: 'Webhooks,WebSockets,Real Time'
