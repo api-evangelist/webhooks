@@ -83,4 +83,22 @@
   url: https://medium.com/p/23d602617348
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15d08e42e33:6553302:5b78a817
+  item_date: "2017-07-03 07:21:05"
+  title: Some thoughts on using AWS Lambda with Slack Webhooks
+  url: https://medium.com/p/16f7dc6d5ec0
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15d1257d1f4:aaa3df:32bbcd87
+  item_date: "2017-07-05 02:35:41"
+  title: Validate Stripe webhooks with Symfony
+  url: https://medium.com/p/b355a500bbea
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15d1c6da61a:1c487:50d1a44a
+  item_date: "2017-07-06 08:12:52"
+  title: How to connect Meteor with Slack?
+  url: https://medium.com/p/99b43d8757ab
+  domain: medium.com
+  image: ""
 ...
