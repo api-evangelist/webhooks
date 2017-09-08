@@ -137,4 +137,40 @@
   url: https://medium.com/p/6b4a517256ac
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15dc2c23a4f:2cbddfd:898d1914
+  item_date: "2017-08-08 09:51:33"
+  title: Working with Mailgun webhooks
+  url: https://medium.com/p/d705ba1b259f
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15dc7d54d84:5b85eb:a2bf0478
+  item_date: "2017-08-09 09:30:17"
+  title: "Video 101 \u2014 Webhooks"
+  url: https://medium.com/p/d56ab2735018
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15dd889c1f1:6375cb:41b98b00
+  item_date: "2017-08-12 15:21:31"
+  title: select last number of rows in spread sheet to return .
+  url: https://medium.com/p/8dc1236b6740
+  domain: medium.com
+  image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_15e0aa19a45:1b9a4e4:41b98b00
+  item_date: "2017-08-22 01:30:00"
+  title: For the Best Security, Think Beyond Webhooks
+  url: https://auth0.com/blog/for-the-best-security-think-beyond-webhooks
+  domain: auth0.com
+  image: ""
+- curated_id: ucOuA++J5fi/dT2D7XJ80WO5PS7K77HdZ2YlofTWggU=_15e0aaad16c:1baee7e:41b98b00
+  item_date: "2017-08-22 08:44:00"
+  title: 'Heroku Webhooks: Powering New Integrations and Real'
+  url: https://blog.heroku.com/heroku-webhooks
+  domain: blog.heroku.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15e51666522:14159f:81f6c248
+  item_date: "2017-09-05 02:36:51"
+  title: Discover Webhook, the Prota OS app to make integrations
+  url: https://medium.com/p/336ed40e9279
+  domain: medium.com
+  image: ""
 ...
