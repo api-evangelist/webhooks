@@ -173,4 +173,46 @@
   url: https://medium.com/p/336ed40e9279
   domain: medium.com
   image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_15e71c1902b:1ec6fca:9dbe7464
+  item_date: "2017-09-11 03:21:00"
+  title: Why is Serverless Extensibility better than Webhooks?
+  url: https://auth0.com/blog/why-is-serverless-extensibility-better-than-webhooks
+  domain: auth0.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15e718d2b80:8dd93a2:feeb522d
+  item_date: "2017-09-11 08:09:33"
+  title: 'Monolith to Microservice: Architecture Behind V2 Webhooks'
+  url: https://medium.com/p/27789c36ace9
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15e7279404b:6292ba2:56b346f
+  item_date: "2017-09-11 08:22:15"
+  title: GitHub
+  url: https://github.com/adnanh/webhook
+  domain: github.com
+  image: ""
+- curated_id: icBO+P+aEoV3pCdadbT8x6BUK1AMTX8T7+Cc4VBUEYQ=_15e87344761:f92c57:4cab23bc
+  item_date: "2017-09-15 07:57:32"
+  title: 'Mellifera 13: Export to MISP, Webhooks, API Keys & ES 5'
+  url: http://blog.thehive-project.org/?p=3309
+  domain: blog.thehive-project.org
+  image: ""
+- curated_id: UjG+CeLaqj27hMBI/WjhTGNNUNvP04IJdUFt2zsPBtQ=_15ea33db0bb:364aa7f:64bea9a6
+  item_date: "2017-09-21 00:00:00"
+  title: 'WebHooks vs WebSub: Which Is Better For Real'
+  url: http://nordicapis.com/?p=7166
+  domain: nordicapis.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15eb8fea043:1cbc312:e05f56c8
+  item_date: "2017-09-24 07:38:15"
+  title: Automatic deployment on push to GitHub repository
+  url: https://medium.com/p/74190c87eee4
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15ecb49973d:6d19b:cbb353b3
+  item_date: "2017-09-28 10:12:16"
+  title: Stripe Webhooks
+  url: https://medium.com/p/dd2aed422837
+  domain: medium.com
+  image: ""
 ...
