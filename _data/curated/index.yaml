@@ -215,4 +215,10 @@
   url: https://medium.com/p/dd2aed422837
   domain: medium.com
   image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_15ee8285710:3e4c3:9b8472f1
+  item_date: "2017-10-04 01:30:00"
+  title: 'Securing Webtasks Part 1: Shared Secret Authorization'
+  url: https://auth0.com/blog/securing-webtasks-part-1-shared-secret-authorization
+  domain: auth0.com
+  image: ""
 ...
