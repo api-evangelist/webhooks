@@ -233,4 +233,10 @@
   url: https://medium.com/p/8d469b9fcaac
   domain: medium.com
   image: ""
+- curated_id: eWu7VVyQziNGDYCNPrNyv5P/LGeod5mr5PXQh3MrqnI=_15f172afc7c:2a17fd2:9ac85644
+  item_date: "2017-10-13 10:21:18"
+  title: Protect your webhooks with Laravel Shield
+  url: https://laravel-news.com/laravel-shield
+  domain: laravel-news.com
+  image: ""
 ...
