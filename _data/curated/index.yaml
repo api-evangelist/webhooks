@@ -227,6 +227,12 @@
   url: https://medium.com/p/88f7041ea6d8
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15f06abe757:25eaf43:3522b906
+  item_date: "2017-10-10 05:26:59"
+  title: Web Hooks for Gitlab using PHP and Shell Scripts
+  url: https://medium.com/p/9a02a1526dc7
+  domain: medium.com
+  image: ""
 - curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15f12d6ba77:b367a:626ab4cd
   item_date: "2017-10-12 08:31:01"
   title: How We Empower Our Users With Webhooks and APIs
