@@ -245,6 +245,12 @@
   url: https://laravel-news.com/laravel-shield
   domain: laravel-news.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15f4ccd0a42:2018820:626ab4cd
+  item_date: "2017-10-23 22:13:45"
+  title: "A beginner\u2019s guide to using webhooks"
+  url: https://medium.com/p/3d95018fabbc
+  domain: medium.com
+  image: ""
 - curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_15f4f8567ef:230877:8cbd7d4f
   item_date: "2017-10-24 10:54:22"
   title: Webhooks, Games API, and Video Retrieval API
