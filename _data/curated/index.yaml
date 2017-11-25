@@ -263,4 +263,16 @@
   url: https://medium.com/p/481b2a81ac4f
   domain: medium.com
   image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_15fe051163a:1d3f6cd:1f4fc1eb
+  item_date: "2017-11-21 04:00:00"
+  title: 'Securing Webtasks Part 2: Using Middleware'
+  url: https://auth0.com/blog/securing-webtasks-part-2-using-middleware
+  domain: auth0.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_15fef644e89:304fa48:1f4fc1eb
+  item_date: "2017-11-24 10:57:26"
+  title: Webhook for you and me
+  url: https://medium.com/p/54b83f5e31d0
+  domain: medium.com
+  image: ""
 ...
