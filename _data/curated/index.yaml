@@ -281,4 +281,10 @@
   url: https://medium.com/p/5b7881b455be
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1601e7e9fc8:8863d:c8ea36f9
+  item_date: "2017-12-03 14:28:21"
+  title: Simple Mailgun Webhook handling in Java with Jersey
+  url: https://medium.com/p/d884059c3a06
+  domain: medium.com
+  image: ""
 ...
