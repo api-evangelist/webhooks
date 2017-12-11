@@ -287,4 +287,29 @@
   url: https://medium.com/p/d884059c3a06
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1602d7fbbdb:d3a441:9e976e77
+  item_date: "2017-12-06 12:23:52"
+  title: Trigger workflows in Slack with webhooks
+  url: https://medium.com/p/4d5df4230c3
+  domain: medium.com
+  image: ""
+- curated_id: rxLnjiJudc56FbZKrZ0crrg2UUWdKV8knoKwhWKNfS4=_16031c7280f:5f2d25:541f3c40
+  item_date: "2017-12-07 08:15:46"
+  title: Chained Builds with Codeship API v2
+  url: https://blog.codeship.com/?p=5875
+  domain: blog.codeship.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1603528ed31:11cf3:c8ea36f9
+  item_date: "2017-12-08 00:06:01"
+  title: "The #1 Problem with Webhooks in Data Integration, and How We\u2019ve Fixed
+    It"
+  url: https://medium.com/p/f5ea6cd5927b
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_160440940f9:10ba859:e66afc8b
+  item_date: "2017-12-10 21:25:43"
+  title: Getting Hooked on Xero with AWS Lambda
+  url: https://medium.com/p/9ed4075c5c23
+  domain: medium.com
+  image: ""
 ...
