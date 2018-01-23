@@ -330,6 +330,12 @@
   url: https://medium.com/p/8a929f50054a
   domain: medium.com
   image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16111a16320:15c3a7:ce0f9556
+  item_date: "2018-01-19 15:38:01"
+  title: Callbacks and Promises Living Together in API Harmony
+  url: https://medium.com/p/7ed26204538b
+  domain: medium.com
+  image: ""
 - curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16112ce8b7a:5c9109b:7157a206
   item_date: "2018-01-19 22:01:34"
   title: 'Webhooks vs. Serverless: I Like Webhooks'
