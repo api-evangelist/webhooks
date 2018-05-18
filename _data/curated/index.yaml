@@ -408,4 +408,40 @@
   url: https://medium.com/p/b04ec2bf9ca2
   domain: medium.com
   image: ""
+- curated_id: 9QOGTVP+u4vwJNHB7SlLr9mbA0Mmqrsw3WZp2GL3orY=_163045d1df3:5ef5ad:11c251fd
+  item_date: "2018-04-11 14:44:58"
+  title: Meya Webhooks API
+  url: https://www.programmableweb.com/api/meya-webhooks
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 2GQkS/v7f+5hIIfsg1a8GI5x8NHiP3RcTT0oELR+xBY=_162e45c54d4:5266f6:76251cdd
+  item_date: "2018-04-20 05:00:00"
+  title: Webtask.io Migrating to Node 8
+  url: https://auth0.com/blog/webtask-dot-io-migrating-to-node-8
+  domain: auth0.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1632e23f620:8b023:abeb7260
+  item_date: "2018-05-04 19:31:37"
+  title: Integrate Legacy System using SQL Dependency and Webhook
+  url: https://medium.com/p/efc8939a1653
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_1632ec49061:197a579:3dd877af
+  item_date: "2018-05-04 22:01:48"
+  title: Webhook Events Are Sign of a Maturing API Platform
+  url: https://dzone.com/articles/2199814
+  domain: dzone.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_16333b0bcba:4e114:d63e3ae2
+  item_date: "2018-05-05 21:23:28"
+  title: Sending Build Status Notification From Google Container Builder to Github
+  url: https://medium.com/p/8adb33abba80
+  domain: medium.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_1635f8ac045:da5140:abeb7260
+  item_date: "2018-05-14 07:31:01"
+  title: 'Advanced Github: Webhooks and Automation'
+  url: https://medium.com/p/952ee091778c
+  domain: medium.com
+  image: ""
 ...
