@@ -444,4 +444,82 @@
   url: https://medium.com/p/952ee091778c
   domain: medium.com
   image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_16454aa0c5f:b0104:e8d3bdb3
+  item_date: "2018-06-22 17:00:00"
+  title: Jenkins and github integration using webhooks
+  url: https://medium.com/p/d5bd8d3ca3c7
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_164302ca34d:e5e136:aa514a55
+  item_date: "2018-06-23 22:01:00"
+  title: Speeding Up Our Webhooks System 60x
+  url: https://dzone.com/articles/2286858
+  domain: dzone.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_16444ab048d:2c5182f:386c987f
+  item_date: "2018-06-27 21:25:51"
+  title: what is a webhook?
+  url: https://medium.com/p/3327b6e470e4
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1644bbc5c51:2d2314:19029e75
+  item_date: "2018-06-29 06:29:51"
+  title: Triggering a Jenkins build automatically when a push to Bitbucket introduced
+  url: https://medium.com/p/b90dec12f893
+  domain: medium.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_164605904a7:545c452:4e0f6129
+  item_date: "2018-07-03 06:28:33"
+  title: New to webhooks? Start here.
+  url: https://medium.com/p/1827b07a3ffa
+  domain: medium.com
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_16484710416:876e553:aa514a55
+  item_date: "2018-07-10 06:35:42"
+  title: Webhook Event Types In Use With Digital Badge APIs
+  url: https://streamdata.io/?p=7583
+  domain: streamdata.io
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_16489d32c86:901363d:aa514a55
+  item_date: "2018-07-11 07:29:25"
+  title: API Event Types For Data Collection Forms
+  url: https://streamdata.io/?p=7587
+  domain: streamdata.io
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_16489eeb6d0:90443e1:aa514a55
+  item_date: "2018-07-11 07:52:34"
+  title: Searching For APIs With Webhooks Uncovers More Mature APIs
+  url: https://streamdata.io/?p=7593
+  domain: streamdata.io
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_1648ee31893:9868528:aa514a55
+  item_date: "2018-07-12 07:24:12"
+  title: Scheduling Serverless Data Streams Using AWS Lambda And Cloudwatch Events
+  url: https://streamdata.io/?p=7599
+  domain: streamdata.io
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_164a4191eb6:5523e2:e8d3bdb3
+  item_date: "2018-07-12 17:00:00"
+  title: What is a webhook and how to create one?
+  url: https://medium.com/p/f7057d2cc0a
+  domain: medium.com
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_164b8b5edfe:d6096af:386c987f
+  item_date: "2018-07-20 10:14:32"
+  title: Applying External Webhooks To Existing APIs Using AWS Lambda
+  url: https://streamdata.io/?p=7688
+  domain: streamdata.io
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_164bc29f26f:da5a528:aa514a55
+  item_date: "2018-07-21 02:05:00"
+  title: Setting Up Automation for Webhooks Testing
+  url: https://dzone.com/articles/2337596
+  domain: dzone.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_164bcc51e58:81de20:19029e75
+  item_date: "2018-07-21 05:16:31"
+  title: '[Ballerina] Event Notification via Webhooks'
+  url: https://medium.com/p/bc7cc63f4b6e
+  domain: medium.com
+  image: ""
 ...
