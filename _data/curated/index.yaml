@@ -450,6 +450,12 @@
   url: https://medium.com/p/d5bd8d3ca3c7
   domain: medium.com
   image: ""
+- curated_id: gok/N1aiGTOaio3XQiVmDps/etNkdYHQoJaEJNxzZOQ=_164c4423d9f:e17406d:4e0f6129
+  item_date: "2018-06-23 15:42:30"
+  title: ALICE Staff Webhooks API
+  url: https://www.programmableweb.com/api/alice-staff-webhooks
+  domain: www.programmableweb.com
+  image: ""
 - curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_164302ca34d:e5e136:aa514a55
   item_date: "2018-06-23 22:01:00"
   title: Speeding Up Our Webhooks System 60x
@@ -520,6 +526,12 @@
   item_date: "2018-07-21 05:16:31"
   title: '[Ballerina] Event Notification via Webhooks'
   url: https://medium.com/p/bc7cc63f4b6e
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_164fb743251:10de710:b0312b22
+  item_date: "2018-08-02 09:24:12"
+  title: Add a webhook automatically to your app whenever
+  url: https://medium.com/p/856da39418cb
   domain: medium.com
   image: ""
 ...
