@@ -553,4 +553,52 @@
   url: https://medium.com/p/ac7845c9e40a
   domain: medium.com
   image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_165842bca21:1927ec:4c71e4fe
+  item_date: "2018-08-28 22:08:01"
+  title: RSS Feed to Google Chat Webhook Using Cloud Functions
+  url: https://dzone.com/articles/2404570
+  domain: dzone.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1659a9c1783:d6de53:d987d511
+  item_date: "2018-09-02 07:07:23"
+  title: "Custom Notifications with Alert Manager\u2019s Webhook Receiver in Kubernetes"
+  url: https://medium.com/p/8e1152ba2c31
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_165a7ea88cd:1ce627b:215b6325
+  item_date: "2018-09-04 21:08:08"
+  title: "Solving Hubspot Webhooks\u2019 2 Second Rule"
+  url: https://medium.com/p/93893ca39cf5
+  domain: medium.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_165b3637f4e:2f477b:cf41b655
+  item_date: "2018-09-07 02:10:02"
+  title: Adding Authentication to Your HTTP Triggered Azure Functions
+  url: https://dzone.com/articles/2431867
+  domain: dzone.com
+  image: ""
+- curated_id: QV6/Uva03i0CdEvjejnoiX8zoQKE8cEYv/BARIZGfAs=_165b4436252:426cca:4c71e4fe
+  item_date: "2018-09-07 06:24:01"
+  title: The Potential Of Using Adobe I/O Event Webhooks To Collaborate
+  url: https://streamdata.io/?p=8000
+  domain: streamdata.io
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_1666dd299f6:49ddc5:3df421eb
+  item_date: "2018-10-13 07:26:19"
+  title: ChainRelay Webhooks API
+  url: https://medium.com/p/3ddfdd5c2299
+  domain: medium.com
+  image: ""
+- curated_id: Ig2aQnyYVIjq2oaSMaix0roooGsKkIoGnC0Z6stTiEo=_166b176d127:11a397f:2e5c38bc
+  item_date: "2018-10-26 10:40:42"
+  title: "How to verify the authenticity of a GitHub App\u2019s webhook payload"
+  url: https://medium.com/p/8d63ccc81a24
+  domain: medium.com
+  image: ""
+- curated_id: AxQQtvE65+QaqkYOryE+b2QKezSYDbTCnNIX6p/weC0=_166c38845ca:10f557:4eafa5b
+  item_date: "2018-10-29 22:52:58"
+  title: "Durable Function Recipe\u200A\u2014\u200AWebhooks Made Easy"
+  url: https://medium.com/p/4878b1972417
+  domain: medium.com
+  image: ""
 ...
