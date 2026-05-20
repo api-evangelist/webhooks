@@ -1,0 +1,137 @@
+aid: webhooks
+name: Webhooks
+description: >-
+  An index and topic collection covering webhook delivery, ingestion, transformation, retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,
+  event-driven integration between SaaS platforms — providers POST events to consumer endpoints, and consumers must reliably receive, verify, persist, and process those
+  deliveries. This collection includes purpose-built webhook gateways like Hookdeck and ngrok, webhook inspection tools like Beeceptor and Webhook.site, durable event
+  platforms like Inngest and Trigger.dev, automation hubs that expose webhook triggers (Zapier, n8n, Make, Pipedream, IFTTT, Integrately), cloud event buses (Amazon
+  EventBridge, SNS, SQS, Azure Event Grid), and major webhook-emitting providers (Stripe, GitHub, Shopify, Twilio, SendGrid, Slack) whose webhook surfaces define the
+  practices the rest of the ecosystem builds on.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Webhooks
+- Event Delivery
+- Webhook Gateway
+- Webhook Inspection
+- Async Events
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Amazon EventBridge
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/apis.yml
+- name: Amazon SNS
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/apis.yml
+- name: Amazon SQS
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/apis.yml
+- name: Azure Event Grid
+  url: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/apis.yml
+- name: Beeceptor
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/apis.yml
+- name: Cloudflare
+  url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
+- name: GitHub
+  url: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/apis.yml
+- name: Hookdeck
+  url: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/apis.yml
+- name: IFTTT
+  url: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/apis.yml
+- name: Inngest
+  url: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/apis.yml
+- name: Integrately
+  url: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/apis.yml
+- name: Make
+  url: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/apis.yml
+- name: n8n
+  url: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/apis.yml
+- name: ngrok
+  url: https://raw.githubusercontent.com/api-evangelist/ngrok/refs/heads/main/apis.yml
+- name: Pipedream
+  url: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/apis.yml
+- name: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/apis.yml
+- name: Relay
+  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/apis.yml
+- name: SendGrid
+  url: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/apis.yml
+- name: Shopify
+  url: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/apis.yml
+- name: Slack
+  url: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/apis.yml
+- name: Splunk
+  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/apis.yml
+- name: Stripe
+  url: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/apis.yml
+- name: Tray.io
+  url: https://raw.githubusercontent.com/api-evangelist/tray-io/refs/heads/main/apis.yml
+- name: Trigger.dev
+  url: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/apis.yml
+- name: Twilio
+  url: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/apis.yml
+- name: Workato
+  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/apis.yml
+- name: Zapier
+  url: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Webhook Delivery and Retries
+    description: Webhook platforms reliably deliver event payloads from producer APIs to consumer endpoints, with automatic retries, exponential backoff, and dead-letter queues to handle transient consumer failures.
+  - name: Signature Verification and Security
+    description: Webhook providers sign payloads with HMAC-SHA256, Ed25519, or asymmetric keys so consumers can verify authenticity, prevent replay attacks, and reject forged requests.
+  - name: Webhook Inspection and Debugging
+    description: Tools like Beeceptor, Webhook.site, and ngrok give developers public URLs for local endpoints and human-readable logs of inbound webhook traffic for debugging and replay.
+  - name: Webhook Gateways and Fan-Out
+    description: Gateway platforms like Hookdeck and Convoy sit between producers and consumers to centralize signing, filtering, transformation, fan-out to multiple destinations, and observability.
+  - name: Event Filtering and Transformation
+    description: Webhook platforms let teams filter events by type or payload content, transform JSON payloads inline, and route the result to specific consumer endpoints or queues.
+  - name: Local Tunneling for Development
+    description: Tunneling tools like ngrok and smee.io expose localhost endpoints to public URLs so developers can receive and debug real webhook traffic during local development.
+  - name: Durable Event Workflows
+    description: Platforms like Inngest and Trigger.dev treat webhook deliveries as the entry point to durable, retryable, multi-step workflows with built-in scheduling, queues, and step-level retries.
+- type: UseCases
+  data:
+  - name: Receiving Stripe Payment Events
+    description: E-commerce and SaaS applications subscribe to Stripe webhook events (invoice.paid, customer.subscription.updated) to keep billing state in sync with Stripe and trigger fulfillment.
+  - name: GitHub CI/CD Automation
+    description: Engineering teams use GitHub webhook events (push, pull_request, release) to trigger CI/CD pipelines, ChatOps notifications, and security scanning workflows.
+  - name: Shopify Order Fan-Out
+    description: Merchants use webhook gateways to fan out Shopify order events to fulfillment, accounting, marketing, and analytics consumers with per-destination retry isolation.
+  - name: Local Webhook Development with Tunnels
+    description: Developers use ngrok or smee.io to receive production-style webhook traffic on localhost during integration development, replaying captured requests to iterate on consumer logic.
+  - name: Webhook Observability and Replay
+    description: Operations teams use webhook gateways and inspection tools to monitor delivery success rates, alert on consumer failures, and replay missed or failed deliveries from history.
+  - name: No-Code Webhook Automation
+    description: Business users use Zapier, Make, n8n, IFTTT, and Pipedream to wire webhook events from one SaaS app into actions in another without writing code.
+  - name: Event-Driven Cloud Fan-Out
+    description: Cloud teams use Amazon EventBridge, SNS, and SQS to fan webhook deliveries out to multiple subscribers (Lambdas, queues, HTTP endpoints) with at-least-once delivery guarantees.
+- type: Integrations
+  data:
+  - name: Hookdeck
+    description: Webhook gateway that ingests, verifies, persists, filters, transforms, and reliably delivers webhook events with retry, replay, and observability.
+  - name: ngrok
+    description: Secure tunneling and ingress platform widely used by developers to expose local webhook endpoints to public URLs for development and debugging.
+  - name: Beeceptor
+    description: Webhook inspection and mocking platform providing instant public endpoints to capture, inspect, and mock inbound HTTP and webhook traffic.
+  - name: Inngest
+    description: Durable event-driven platform that receives webhook events and runs them through retryable, multi-step workflow functions with built-in queues and scheduling.
+  - name: Trigger.dev
+    description: Developer-first background jobs and workflows platform with first-class webhook triggers, retries, and long-running execution.
+  - name: Stripe
+    description: Payments platform whose webhook event model (signed payloads, idempotency, replayable history) defines best practice for the broader webhook ecosystem.
+  - name: GitHub
+    description: Source control platform emitting webhook events for repository, issue, pull request, release, and CI/CD activity used to drive automation across the developer ecosystem.
+  - name: Amazon EventBridge
+    description: Serverless event bus that ingests events from AWS services, SaaS partners, and custom applications, and fans them out to targets including webhook-style HTTP endpoints.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com

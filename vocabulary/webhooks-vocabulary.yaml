@@ -1,0 +1,269 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Webhooks
+  description: Vocabulary for the webhooks topic, covering webhook endpoints, events, deliveries, signing, retry, gateways, inspection tools, and event-emitting platforms.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Hookdeck
+      namespace: hookdeck
+      status: active
+    - name: ngrok
+      namespace: ngrok
+      status: active
+    - name: Beeceptor
+      namespace: beeceptor
+      status: active
+    - name: Inngest
+      namespace: inngest
+      status: active
+    - name: Trigger.dev
+      namespace: trigger-dev
+      status: active
+    - name: Stripe
+      namespace: stripe
+      status: active
+    - name: GitHub
+      namespace: github
+      status: active
+    - name: Amazon EventBridge
+      namespace: amazon-eventbridge
+      status: active
+
+  resources:
+    - name: endpoints
+      description: Consumer-side webhook endpoint subscriptions
+      actions:
+        - create
+        - get
+        - list
+        - update
+        - delete
+        - rotate-secret
+    - name: events
+      description: Source webhook events produced by an integration or platform
+      actions:
+        - list
+        - get
+        - replay
+    - name: deliveries
+      description: Delivery attempts of an event to a consumer endpoint
+      actions:
+        - list
+        - get
+        - retry
+    - name: signing-configs
+      description: Signing keys and signature settings used to authenticate deliveries
+      actions:
+        - get
+        - rotate
+    - name: filters
+      description: Rules that filter or route events to specific endpoints
+      actions:
+        - create
+        - list
+        - update
+        - delete
+
+  actions:
+    - name: create
+      description: Create a webhook endpoint, filter, or signing key
+      httpMethod: POST
+      pattern: write
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: update
+      description: Modify an existing endpoint, filter, or signing config
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove an endpoint, filter, or signing config
+      httpMethod: DELETE
+      pattern: destructive
+    - name: retry
+      description: Manually retry a failed delivery attempt
+      httpMethod: POST
+      pattern: write
+    - name: replay
+      description: Replay a historical event to one or more endpoints
+      httpMethod: POST
+      pattern: write
+    - name: rotate
+      description: Rotate a signing secret to a new value
+      httpMethod: POST
+      pattern: write
+    - name: rotate-secret
+      description: Rotate the signing secret associated with an endpoint
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: WebhookEndpoint
+        description: A subscribed consumer endpoint
+        properties:
+          - id
+          - url
+          - enabled_events
+          - status
+          - signing
+          - retry_policy
+          - rate_limit
+          - created_at
+      - name: DeliveryAttempt
+        description: A single delivery attempt for a webhook event
+        properties:
+          - id
+          - event_id
+          - endpoint_id
+          - attempt_number
+          - status
+          - request
+          - response
+          - error
+          - next_retry_at
+          - attempted_at
+
+  enums:
+    endpoint_status:
+      - enabled
+      - disabled
+      - paused
+      - failed
+    delivery_status:
+      - succeeded
+      - failed
+      - pending
+      - scheduled
+      - skipped
+    signature_algorithm:
+      - hmac-sha256
+      - hmac-sha512
+      - ed25519
+      - rsa-sha256
+    backoff_strategy:
+      - linear
+      - exponential
+      - fixed
+    error_code:
+      - timeout
+      - connection_refused
+      - dns_failure
+      - tls_error
+      - non_2xx_response
+      - payload_too_large
+      - rate_limited
+
+capability:
+  workflows:
+    - name: Reliable Event Delivery
+      description: Ingest webhook events from a producer, verify signatures, persist, and deliver to consumers with retries and dead-letter handling
+      apis:
+        - hookdeck
+        - inngest
+        - amazon-eventbridge
+      personas:
+        - Integration Engineer
+      domains:
+        - Webhook Gateway
+    - name: Local Webhook Development
+      description: Expose a local development endpoint via a public URL and inspect inbound webhook traffic
+      apis:
+        - ngrok
+        - beeceptor
+      personas:
+        - Application Developer
+      domains:
+        - Webhook Inspection
+    - name: No-Code Webhook Automation
+      description: Wire webhook events from a SaaS app into actions in another app without writing code
+      apis:
+        - zapier
+        - make
+        - n8n
+        - ifttt
+        - pipedream
+      personas:
+        - Automation Builder
+      domains:
+        - Automation
+    - name: Cloud Event Fan-Out
+      description: Route webhook deliveries to many subscribers via a cloud event bus with at-least-once delivery
+      apis:
+        - amazon-eventbridge
+        - amazon-sns
+        - amazon-sqs
+        - azure-event-grid
+      personas:
+        - Cloud Engineer
+      domains:
+        - Event Bus
+
+  personas:
+    - id: integration-engineer
+      name: Integration Engineer
+      description: Engineers building production webhook ingestion pipelines and gateways
+      workflows:
+        - Reliable Event Delivery
+    - id: application-developer
+      name: Application Developer
+      description: Developers integrating webhook producers during local development
+      workflows:
+        - Local Webhook Development
+    - id: automation-builder
+      name: Automation Builder
+      description: Operators and business users wiring webhook triggers into actions via no-code platforms
+      workflows:
+        - No-Code Webhook Automation
+    - id: cloud-engineer
+      name: Cloud Engineer
+      description: Engineers designing event-driven cloud architectures and fan-out topologies
+      workflows:
+        - Cloud Event Fan-Out
+
+  domains:
+    - name: Webhook Gateway
+      description: Platforms that ingest, persist, verify, and deliver webhook events with retries and observability
+    - name: Webhook Inspection
+      description: Tools that provide public endpoints and human-readable logs of inbound webhook traffic for debugging
+    - name: Automation
+      description: No-code and low-code platforms that expose webhook triggers and chain them to actions
+    - name: Event Bus
+      description: Cloud-native pub/sub and event routing services that fan webhook events out to multiple subscribers
+
+crossReference:
+  - resource: endpoints
+    operations:
+      - create
+      - update
+      - rotate-secret
+    workflows:
+      - Reliable Event Delivery
+    personas:
+      - Integration Engineer
+  - resource: deliveries
+    operations:
+      - list
+      - retry
+    workflows:
+      - Reliable Event Delivery
+    personas:
+      - Integration Engineer
+  - resource: events
+    operations:
+      - replay
+    workflows:
+      - Reliable Event Delivery
+      - No-Code Webhook Automation
+    personas:
+      - Integration Engineer
+      - Automation Builder

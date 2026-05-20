@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/json-structure/webhooks-webhook-endpoint-structure.json",
+  "name": "WebhookEndpoint",
+  "description": "Represents a consumer-side endpoint that is subscribed to receive webhook event deliveries from a producer or webhook gateway.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier for the webhook endpoint subscription.",
+      "example": "we_1NqA8c2eZvKYlo2C"
+    },
+    "url": {
+      "type": "uri",
+      "description": "HTTPS URL that the producer will POST event payloads to.",
+      "example": "https://api.example.com/webhooks/stripe"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the endpoint's purpose.",
+      "example": "Production billing service Stripe webhook handler"
+    },
+    "enabled_events": {
+      "type": "array",
+      "description": "List of event types this endpoint is subscribed to. Use ['*'] to subscribe to all events.",
+      "items": { "type": "string" },
+      "example": ["invoice.paid", "customer.subscription.updated"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["enabled", "disabled", "paused", "failed"],
+      "description": "Current operational status of the endpoint.",
+      "example": "enabled"
+    },
+    "signing": {
+      "type": "object",
+      "description": "Signing configuration the producer uses when delivering to this endpoint.",
+      "properties": {
+        "algorithm": {
+          "type": "string",
+          "enum": ["hmac-sha256", "hmac-sha512", "ed25519", "rsa-sha256"],
+          "example": "hmac-sha256"
+        },
+        "secret_id": {
+          "type": "string",
+          "description": "Opaque identifier for the signing secret.",
+          "example": "whsec_2bN7ZyXk"
+        },
+        "header": {
+          "type": "string",
+          "description": "HTTP header name that carries the signature.",
+          "example": "Stripe-Signature"
+        }
+      }
+    },
+    "retry_policy": {
+      "type": "object",
+      "description": "Retry strategy applied when the consumer responds with a non-2xx status or times out.",
+      "properties": {
+        "max_attempts": { "type": "int32", "example": 8 },
+        "backoff": {
+          "type": "string",
+          "enum": ["linear", "exponential", "fixed"],
+          "example": "exponential"
+        },
+        "initial_delay_seconds": { "type": "int32", "example": 30 },
+        "max_delay_seconds": { "type": "int32", "example": 86400 }
+      }
+    },
+    "rate_limit": {
+      "type": "object",
+      "description": "Optional rate limiting applied by the gateway when delivering to this endpoint.",
+      "properties": {
+        "requests_per_second": { "type": "double", "example": 25 }
+      }
+    },
+    "created_at": {
+      "type": "datetime",
+      "example": "2026-05-19T15:04:05Z"
+    }
+  },
+  "required": ["url", "enabled_events", "status"]
+}

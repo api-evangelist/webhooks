@@ -1,0 +1,145 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "wh": "https://api-evangelist.github.io/webhooks/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+
+    "WebhookEndpoint": "wh:WebhookEndpoint",
+    "WebhookEvent": "wh:WebhookEvent",
+    "DeliveryAttempt": "wh:DeliveryAttempt",
+    "SigningConfig": "wh:SigningConfig",
+
+    "id": "@id",
+    "name": "schema:name",
+    "description": "schema:description",
+
+    "url": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "enabled_events": {
+      "@id": "wh:enabledEvents",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "wh:status",
+      "@type": "xsd:string"
+    },
+    "signing": {
+      "@id": "wh:signing",
+      "@type": "@id"
+    },
+    "algorithm": {
+      "@id": "wh:signatureAlgorithm",
+      "@type": "xsd:string"
+    },
+    "secret_id": {
+      "@id": "wh:signingSecretId",
+      "@type": "xsd:string"
+    },
+    "header": {
+      "@id": "wh:signatureHeader",
+      "@type": "xsd:string"
+    },
+    "retry_policy": {
+      "@id": "wh:retryPolicy",
+      "@type": "@id"
+    },
+    "max_attempts": {
+      "@id": "wh:maxAttempts",
+      "@type": "xsd:integer"
+    },
+    "backoff": {
+      "@id": "wh:backoffStrategy",
+      "@type": "xsd:string"
+    },
+    "initial_delay_seconds": {
+      "@id": "wh:initialDelaySeconds",
+      "@type": "xsd:integer"
+    },
+    "max_delay_seconds": {
+      "@id": "wh:maxDelaySeconds",
+      "@type": "xsd:integer"
+    },
+    "rate_limit": {
+      "@id": "wh:rateLimit",
+      "@type": "@id"
+    },
+    "requests_per_second": {
+      "@id": "wh:requestsPerSecond",
+      "@type": "xsd:double"
+    },
+    "event_id": {
+      "@id": "wh:eventId",
+      "@type": "xsd:string"
+    },
+    "endpoint_id": {
+      "@id": "wh:endpointId",
+      "@type": "xsd:string"
+    },
+    "attempt_number": {
+      "@id": "wh:attemptNumber",
+      "@type": "xsd:integer"
+    },
+    "request": {
+      "@id": "wh:request",
+      "@type": "@id"
+    },
+    "response": {
+      "@id": "wh:response",
+      "@type": "@id"
+    },
+    "method": {
+      "@id": "schema:httpMethod",
+      "@type": "xsd:string"
+    },
+    "headers": {
+      "@id": "wh:httpHeaders",
+      "@container": "@index"
+    },
+    "body_size_bytes": {
+      "@id": "wh:bodySizeBytes",
+      "@type": "xsd:integer"
+    },
+    "status_code": {
+      "@id": "wh:statusCode",
+      "@type": "xsd:integer"
+    },
+    "body_excerpt": {
+      "@id": "wh:bodyExcerpt",
+      "@type": "xsd:string"
+    },
+    "latency_ms": {
+      "@id": "wh:latencyMs",
+      "@type": "xsd:integer"
+    },
+    "error": {
+      "@id": "wh:error",
+      "@type": "@id"
+    },
+    "code": {
+      "@id": "wh:errorCode",
+      "@type": "xsd:string"
+    },
+    "message": {
+      "@id": "schema:description",
+      "@type": "xsd:string"
+    },
+    "next_retry_at": {
+      "@id": "wh:nextRetryAt",
+      "@type": "xsd:dateTime"
+    },
+    "attempted_at": {
+      "@id": "prov:atTime",
+      "@type": "xsd:dateTime"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    }
+  }
+}

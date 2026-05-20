@@ -1,0 +1,28 @@
+{
+  "id": "we_1NqA8c2eZvKYlo2C",
+  "url": "https://api.example.com/webhooks/stripe",
+  "description": "Production billing service Stripe webhook handler",
+  "enabled_events": [
+    "invoice.paid",
+    "invoice.payment_failed",
+    "customer.subscription.created",
+    "customer.subscription.updated",
+    "customer.subscription.deleted"
+  ],
+  "status": "enabled",
+  "signing": {
+    "algorithm": "hmac-sha256",
+    "secret_id": "whsec_2bN7ZyXk",
+    "header": "Stripe-Signature"
+  },
+  "retry_policy": {
+    "max_attempts": 8,
+    "backoff": "exponential",
+    "initial_delay_seconds": 30,
+    "max_delay_seconds": 86400
+  },
+  "rate_limit": {
+    "requests_per_second": 25
+  },
+  "created_at": "2026-05-19T15:04:05Z"
+}

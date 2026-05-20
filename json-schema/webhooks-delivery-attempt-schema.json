@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/json-schema/webhooks-delivery-attempt-schema.json",
+  "title": "DeliveryAttempt",
+  "description": "Represents a single attempt to deliver a webhook event to a consumer endpoint, including request, response, and outcome metadata.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identifier for this delivery attempt.",
+      "example": "att_01HXYZ4P9V"
+    },
+    "event_id": {
+      "type": "string",
+      "description": "Identifier of the source event being delivered.",
+      "example": "evt_3NqA8c2eZvKYlo2C"
+    },
+    "endpoint_id": {
+      "type": "string",
+      "description": "Identifier of the destination webhook endpoint.",
+      "example": "we_1NqA8c2eZvKYlo2C"
+    },
+    "attempt_number": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "1-based attempt number for the underlying event delivery.",
+      "example": 3
+    },
+    "status": {
+      "type": "string",
+      "enum": ["succeeded", "failed", "pending", "scheduled", "skipped"],
+      "description": "Outcome of this delivery attempt.",
+      "example": "failed"
+    },
+    "request": {
+      "type": "object",
+      "description": "Outbound HTTP request as sent to the consumer endpoint.",
+      "properties": {
+        "method": { "type": "string", "enum": ["POST", "PUT"], "example": "POST" },
+        "url": { "type": "string", "format": "uri", "example": "https://api.example.com/webhooks/stripe" },
+        "headers": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "example": { "Content-Type": "application/json", "Stripe-Signature": "t=1716131045,v1=..." }
+        },
+        "body_size_bytes": { "type": "integer", "minimum": 0, "example": 4823 }
+      }
+    },
+    "response": {
+      "type": "object",
+      "description": "Response received from the consumer endpoint, if any.",
+      "properties": {
+        "status_code": { "type": "integer", "example": 503 },
+        "headers": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "body_excerpt": {
+          "type": "string",
+          "description": "Truncated response body for debugging.",
+          "example": "Service Unavailable"
+        },
+        "latency_ms": { "type": "integer", "minimum": 0, "example": 312 }
+      }
+    },
+    "error": {
+      "type": "object",
+      "description": "Error details when the attempt did not succeed.",
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": ["timeout", "connection_refused", "dns_failure", "tls_error", "non_2xx_response", "payload_too_large", "rate_limited"],
+          "example": "non_2xx_response"
+        },
+        "message": { "type": "string", "example": "Endpoint returned 503 after 312ms" }
+      }
+    },
+    "next_retry_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Scheduled time of the next retry attempt, if any.",
+      "example": "2026-05-19T15:09:05Z"
+    },
+    "attempted_at": {
+      "type": "string",
+      "format": "date-time",
+      "example": "2026-05-19T15:04:05Z"
+    }
+  },
+  "required": ["event_id", "endpoint_id", "attempt_number", "status", "attempted_at"]
+}
