@@ -1,0 +1,26 @@
+title: Webhooks
+description: An index and topic collection covering webhook delivery, ingestion, transformation,
+  retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,
+  event-driven integration between SaaS platforms — providers POST events to consumer
+  endpoints, and consumers must reliably receive, verify, persist, and process those
+  deliveries. This collection includes purpose-built webhook gateways like Hookdeck
+  and ngrok, webhook inspection tools like Beeceptor and Webhook.site, durable event
+  platforms like Inngest and Trigger.dev, automation hubs that expose webhook triggers
+  (Zapier, n8n, Make, Pipedream, IFTTT, Integrately), cloud event buses (Amazon EventBridge,
+  SNS, SQS, Azure Event Grid), and major webhook-emitting providers (Stripe, GitHub,
+  Shopify, Twilio, SendGrid, Slack) whose webhook surfaces define the practices the
+  rest of the ecosystem builds on.
+url: https://webhooks.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
