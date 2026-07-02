@@ -3,8 +3,6 @@ An index and topic collection covering webhook delivery, ingestion, transformati
 
 **URL:** [https://apievangelist.com](https://apievangelist.com)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
-
 ## Tags:
 
  - Webhooks, Event Delivery, Webhook Gateway, Webhook Inspection, Async Events
