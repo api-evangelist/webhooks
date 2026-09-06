@@ -1,7 +1,7 @@
 ---
-title: Re-Evaluating Your MCP Gateway After the Portkey Acquisition
-link: https://zuplo.com/blog/mcp-gateway-after-the-portkey-acquisition
-published: '2026-06-05'
+title: 'MCP Registry vs. MCP Gateway: What''s the Difference?'
+link: https://zuplo.com//blog/mcp-registry-vs-mcp-gateway
+published: '2026-07-06'
 provider: zuplo
 repo: https://github.com/api-evangelist/zuplo
 domain: zuplo.com

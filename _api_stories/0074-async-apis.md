@@ -1,7 +1,7 @@
 ---
-title: September Community Update And AsyncAPI Conference London 2024
-link: https://www.asyncapi.com/blog/2024-september-summary-and-london?utm_source=rss
-published: '2024-10-02'
+title: AsyncAPI Spec 3.1.0 Release Notes
+link: https://www.asyncapi.com/blog/release-notes-3.1.0?utm_source=rss
+published: '2026-01-31'
 provider: async-apis
 repo: https://github.com/api-evangelist/async-apis
 domain: www.asyncapi.com
