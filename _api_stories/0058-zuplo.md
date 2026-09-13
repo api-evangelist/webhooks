@@ -1,7 +1,7 @@
 ---
-title: 'MCP Gateway Comparison: 10 Tools for Governing AI Agent Access'
-link: https://zuplo.com//blog/mcp-gateway-comparison
-published: '2026-06-02'
+title: Front a Third-Party Server with the Zuplo MCP Gateway
+link: https://zuplo.com/blog/set-up-virtual-mcp-server-portal
+published: '2026-06-03'
 provider: zuplo
 repo: https://github.com/api-evangelist/zuplo
 domain: zuplo.com
