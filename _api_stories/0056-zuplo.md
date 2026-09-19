@@ -1,7 +1,7 @@
 ---
-title: Anthropic Just Made the Case for MCP Gateways
-link: https://zuplo.com/blog/anthropic-made-the-case-for-mcp-gateways
-published: '2026-06-04'
+title: Front a Third-Party Server with the Zuplo MCP Gateway
+link: https://zuplo.com/blog/set-up-virtual-mcp-server-portal
+published: '2026-06-03'
 provider: zuplo
 repo: https://github.com/api-evangelist/zuplo
 domain: zuplo.com
