@@ -1,5 +1,6 @@
 aid: webhooks
 name: Webhooks
+kind: topic
 description: >-
   An index and topic collection covering webhook delivery, ingestion, transformation, retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous,
   event-driven integration between SaaS platforms — providers POST events to consumer endpoints, and consumers must reliably receive, verify, persist, and process those
