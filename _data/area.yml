@@ -12,7 +12,7 @@ meta:
     webhook-emitting providers (Stripe, GitHub, Shopify, Twilio, SendGrid, Slack)
     whose webhook surfaces define the practices the rest of the ecosystem builds on.
   tags:
-  - Webhooks
+  - Webhook
   - Event Delivery
   - Webhook Gateway
   - Webhook Inspection
