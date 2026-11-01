@@ -1,119 +1,97 @@
-# Webhooks (webhooks)
+# Webhooks
+
+<!-- API-EVANGELIST-PROVENANCE:BEGIN -->
+> ### About this repository
+>
+> **This is not our API.** This repository is an independent, third-party profile of a company's
+> **publicly available** API surface, maintained by [API Evangelist](https://apievangelist.com).
+> API Evangelist does not operate, host, resell, or support this company's APIs, and is not
+> affiliated with or endorsed by the company unless stated on the profile.
+>
+> **Where the information came from.** Everything here is assembled from material a member of the
+> public can reach with a browser and no credentials — the company's own website, developer portal
+> and documentation, the specifications it publishes for public use (OpenAPI, AsyncAPI, JSON Schema,
+> `apis.json`, `llms.txt` and similar), its public repositories, and its public status, pricing and
+> changelog pages. **Nothing here is obtained by breaching a system, defeating an access control, or
+> using credentials of any kind.**
+>
+> **The rating is an independent assessment.** The Kin Score and Agent Readiness rating are
+> independently calculated scores of a company's *public* API artifacts, produced by API Evangelist
+> against a published rubric. They are not certifications, endorsements, security assessments, or
+> audits, and they score published artifacts — not the quality, safety, or security of the software.
+>
+> **Corrections, re-scores, and removal are free.** No partnership, contract, or purchase is
+> required, and you do not need to justify the request.
+>
+> - **Something wrong?** Open an issue on this repository, or email
+>   [info@apievangelist.com](mailto:info@apievangelist.com).
+> - **Published something new?** Ask for a re-score and we will re-run the rating.
+> - **Want the listing taken down?** Say so and we will honor it. The profile is reduced to your
+>   company name, a factual description, and a link to your own site, and the company is recorded as
+>   **unrated** — never scored zero for having asked.
+>
+> **Response times.** Acknowledgement within **one business day**; removal or restriction within
+> **two business days**; corrections and re-scores within **five business days**.
+>
+> **Not from the company, and here with a question?** You are welcome here — we would rather be the
+> front line and point you the right way than have a good report go nowhere. What this repository
+> can answer is narrow, though, so it is worth knowing who you are actually looking for:
+>
+> - **A question about how the API works, an account, billing, or a bug in the service** — that is
+>   the company's own support, not us. We profile this API; we do not operate it and cannot see
+>   your account.
+> - **A bug in an open-source project we only catalog** — file it on that project's own repository.
+>   This has happened with a real and correct bug report that reached us instead of the people who
+>   could fix it, which helped nobody.
+> - **Anything about this listing itself** — the description, the tags, the rating, a missing or
+>   wrong artifact — is ours. Open an issue here.
+> - **Not sure, or something general about API Evangelist or APIs.io** — open an issue on the
+>   [APIs.io Inbox](https://github.com/api-search/inbox) and we will route it.
+>
+> **This repository contains no software, and we will never ask you to download anything.** There is
+> no build, release, installer, or binary here — only text and machine-readable API descriptions, so
+> there is nothing here that can be "corrupt" or need "repairing". Any issue, comment, or email
+> claiming otherwise and offering a download link is not from us and is hostile. Do not follow the
+> link; it is a lure. Report it to GitHub and, if you like, tell us at
+> [info@apievangelist.com](mailto:info@apievangelist.com) so we can take it down.
+>
+> **On a security or compliance team?** Email
+> [info@apievangelist.com](mailto:info@apievangelist.com) with *security* in the subject line and
+> you will get a person, not a form. We will tell you exactly which public URLs this profile was
+> built from so your team can see the same surface we did, and we will take the listing down on
+> request while you work through it.
+>
+> Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
+<!-- API-EVANGELIST-PROVENANCE:END -->
+
 An index and topic collection covering webhook delivery, ingestion, transformation, retry, and inspection APIs. Webhooks are the dominant HTTP pattern for asynchronous, event-driven integration between SaaS platforms — providers POST events to consumer endpoints, and consumers must reliably receive, verify, persist, and process those deliveries. This collection includes purpose-built webhook gateways like Hookdeck and ngrok, webhook inspection tools like Beeceptor and Webhook.site, durable event platforms like Inngest and Trigger.dev, automation hubs that expose webhook triggers (Zapier, n8n, Make, Pipedream, IFTTT, Integrately), cloud event buses (Amazon EventBridge, SNS, SQS, Azure Event Grid), and major webhook-emitting providers (Stripe, GitHub, Shopify, Twilio, SendGrid, Slack) whose webhook surfaces define the practices the rest of the ecosystem builds on.
 
-**URL:** [https://apievangelist.com](https://apievangelist.com)
+**Areas:** Webhook · Event Delivery · Webhook Gateway · Webhook Inspection · Async Events
 
-## Tags:
+## Webhooks on APIs.io
 
- - Webhooks, Event Delivery, Webhook Gateway, Webhook Inspection, Async Events
+Everything profiled for Webhooks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/webhooks/](https://apis.io/providers/webhooks/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+## Where to find this API
 
-- **Created:** 2026-05-19
-- **Modified:** 2026-05-19
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Common Properties
+- [GitHub](https://github.com/api-evangelist)
 
-- [Portal](https://apievangelist.com)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Webhook Endpoint Schema](https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/json-schema/webhooks-webhook-endpoint-schema.json)
-- [JSONSchema - Delivery Attempt Schema](https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/json-schema/webhooks-delivery-attempt-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/json-ld/webhooks-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/webhooks/refs/heads/main/vocabulary/webhooks-vocabulary.yaml)
+## API Evangelist rating
 
-## Features
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Name | Description |
-|------|-------------|
-| Webhook Delivery and Retries | Webhook platforms reliably deliver event payloads from producer APIs to consumer endpoints, with automatic retries, exponential backoff, and dead-letter queues to handle transient consumer failures. |
-| Signature Verification and Security | Webhook providers sign payloads with HMAC-SHA256, Ed25519, or asymmetric keys so consumers can verify authenticity, prevent replay attacks, and reject forged requests. |
-| Webhook Inspection and Debugging | Tools like Beeceptor, Webhook.site, and ngrok give developers public URLs for local endpoints and human-readable logs of inbound webhook traffic for debugging and replay. |
-| Webhook Gateways and Fan-Out | Gateway platforms like Hookdeck and Convoy sit between producers and consumers to centralize signing, filtering, transformation, fan-out to multiple destinations, and observability. |
-| Event Filtering and Transformation | Webhook platforms let teams filter events by type or payload content, transform JSON payloads inline, and route the result to specific consumer endpoints or queues. |
-| Local Tunneling for Development | Tunneling tools like ngrok and smee.io expose localhost endpoints to public URLs so developers can receive and debug real webhook traffic during local development. |
-| Durable Event Workflows | Platforms like Inngest and Trigger.dev treat webhook deliveries as the entry point to durable, retryable, multi-step workflows with built-in scheduling, queues, and step-level retries. |
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-## Use Cases
+## How this profile is made
 
-| Name | Description |
-|------|-------------|
-| Receiving Stripe Payment Events | E-commerce and SaaS applications subscribe to Stripe webhook events to keep billing state in sync and trigger fulfillment. |
-| GitHub CI/CD Automation | Engineering teams use GitHub webhook events (push, pull_request, release) to trigger CI/CD pipelines, ChatOps notifications, and security scanning. |
-| Shopify Order Fan-Out | Merchants use webhook gateways to fan out Shopify order events to fulfillment, accounting, marketing, and analytics consumers with per-destination retry isolation. |
-| Local Webhook Development with Tunnels | Developers use ngrok or smee.io to receive production-style webhook traffic on localhost during integration development. |
-| Webhook Observability and Replay | Operations teams use webhook gateways and inspection tools to monitor delivery success, alert on failures, and replay missed deliveries from history. |
-| No-Code Webhook Automation | Business users use Zapier, Make, n8n, IFTTT, and Pipedream to wire webhook events from one SaaS app into actions in another without writing code. |
-| Event-Driven Cloud Fan-Out | Cloud teams use Amazon EventBridge, SNS, and SQS to fan webhook deliveries out to multiple subscribers with at-least-once delivery guarantees. |
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Integrations
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Webhooks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-| Name | Description |
-|------|-------------|
-| Hookdeck | Webhook gateway that ingests, verifies, persists, filters, transforms, and reliably delivers webhook events with retry, replay, and observability. |
-| ngrok | Secure tunneling and ingress platform widely used to expose local webhook endpoints to public URLs for development and debugging. |
-| Beeceptor | Webhook inspection and mocking platform providing instant public endpoints to capture, inspect, and mock inbound HTTP and webhook traffic. |
-| Inngest | Durable event-driven platform that receives webhook events and runs them through retryable, multi-step workflow functions. |
-| Trigger.dev | Developer-first background jobs and workflows platform with first-class webhook triggers, retries, and long-running execution. |
-| Stripe | Payments platform whose webhook event model defines best practice for the broader webhook ecosystem. |
-| GitHub | Source control platform emitting webhook events for repository, issue, PR, release, and CI/CD activity. |
-| Amazon EventBridge | Serverless event bus that ingests events from AWS services, SaaS partners, and custom applications and fans them out to targets including webhook endpoints. |
+## Open an issue
 
-## Artifacts
-
-Machine-readable artifacts describing webhook endpoints, events, deliveries, and signing — organized by format.
-
-### JSON Schema
-
-- [Webhook Endpoint Schema](json-schema/webhooks-webhook-endpoint-schema.json)
-- [Delivery Attempt Schema](json-schema/webhooks-delivery-attempt-schema.json)
-
-### JSON Structure
-
-- [Webhook Endpoint Structure](json-structure/webhooks-webhook-endpoint-structure.json)
-- [Delivery Attempt Structure](json-structure/webhooks-delivery-attempt-structure.json)
-
-### JSON-LD
-
-- [Webhooks Context](json-ld/webhooks-context.jsonld)
-
-## Vocabulary
-
-- [Webhooks Vocabulary](vocabulary/webhooks-vocabulary.yaml) — Unified taxonomy of webhook endpoints, events, deliveries, signing configs, workflows, and personas across gateways, inspection tools, automation hubs, and event-emitting platforms.
-
-## Network
-
-This index references the following webhook tooling and webhook-emitting platform repositories:
-
-- [Amazon EventBridge](https://github.com/api-evangelist/amazon-eventbridge)
-- [Amazon SNS](https://github.com/api-evangelist/amazon-sns)
-- [Amazon SQS](https://github.com/api-evangelist/amazon-sqs)
-- [Azure Event Grid](https://github.com/api-evangelist/azure-event-grid)
-- [Beeceptor](https://github.com/api-evangelist/beeceptor)
-- [Cloudflare](https://github.com/api-evangelist/cloudflare)
-- [GitHub](https://github.com/api-evangelist/github)
-- [Hookdeck](https://github.com/api-evangelist/hookdeck)
-- [IFTTT](https://github.com/api-evangelist/ifttt)
-- [Inngest](https://github.com/api-evangelist/inngest)
-- [Integrately](https://github.com/api-evangelist/integrately)
-- [Make](https://github.com/api-evangelist/make)
-- [n8n](https://github.com/api-evangelist/n8n)
-- [ngrok](https://github.com/api-evangelist/ngrok)
-- [Pipedream](https://github.com/api-evangelist/pipedream)
-- [Postman](https://github.com/api-evangelist/postman)
-- [Relay](https://github.com/api-evangelist/relay-app)
-- [SendGrid](https://github.com/api-evangelist/sendgrid)
-- [Shopify](https://github.com/api-evangelist/shopify)
-- [Slack](https://github.com/api-evangelist/slack)
-- [Splunk](https://github.com/api-evangelist/splunk)
-- [Stripe](https://github.com/api-evangelist/stripe)
-- [Tray.io](https://github.com/api-evangelist/tray-io)
-- [Trigger.dev](https://github.com/api-evangelist/trigger-dev)
-- [Twilio](https://github.com/api-evangelist/twilio)
-- [Workato](https://github.com/api-evangelist/workato)
-- [Zapier](https://github.com/api-evangelist/zapier)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/webhooks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
