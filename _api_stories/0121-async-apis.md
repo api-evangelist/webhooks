@@ -1,7 +1,7 @@
 ---
-title: November and December Community Update And AsyncAPI Conf in Paris 2024
-link: https://www.asyncapi.com/blog/2024-december-and-paris?utm_source=rss
-published: '2024-12-16'
+title: 'AsyncAPI VS Code Preview Goes Web: Now Available in Your Browser'
+link: https://www.asyncapi.com/blog/vsasyncapi-preview-extension?utm_source=rss
+published: '2025-12-07'
 provider: async-apis
 repo: https://github.com/api-evangelist/async-apis
 domain: www.asyncapi.com

@@ -1,7 +1,7 @@
 ---
-title: September Community Update And AsyncAPI Conference London 2024
-link: https://www.asyncapi.com/blog/2024-september-summary-and-london?utm_source=rss
-published: '2024-10-02'
+title: How TransferGo adopted AsyncAPI
+link: https://www.asyncapi.com/blog/transfergo-asyncapi-story?utm_source=rss
+published: '2025-10-15'
 provider: async-apis
 repo: https://github.com/api-evangelist/async-apis
 domain: www.asyncapi.com
