@@ -1,8 +1,7 @@
 ---
-title: 'Gravitee Returns as a Platinum Sponsor: Strengthening the AsyncAPI Ecosystem
-  Across 2025'
-link: https://www.asyncapi.com/blog/gravitee-sponsorship-2025?utm_source=rss
-published: '2025-07-28'
+title: 'State of AsyncAPI Initiative: 2025 Annual Review'
+link: https://www.asyncapi.com/blog/2025-annual-summary?utm_source=rss
+published: '2026-01-10'
 provider: async-apis
 repo: https://github.com/api-evangelist/async-apis
 domain: www.asyncapi.com

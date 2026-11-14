@@ -1,7 +1,7 @@
 ---
-title: Front a Third-Party Server with the Zuplo MCP Gateway
-link: https://zuplo.com/blog/set-up-virtual-mcp-server-portal
-published: '2026-06-03'
+title: Why Enterprises Need an MCP Gateway
+link: https://zuplo.com//blog/why-enterprises-need-an-mcp-gateway
+published: '2026-06-09'
 provider: zuplo
 repo: https://github.com/api-evangelist/zuplo
 domain: zuplo.com
